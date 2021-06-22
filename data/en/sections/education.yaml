@@ -1,0 +1,22 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor of Technology
+  icon: fa-graduation-cap
+  timeframe: 2005-2009
+  institution:
+    name: SASTRA University, Tamilnadu, India
+    url: "https://www.sastra.edu/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 8.09
+    outOf: 10

@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Awards
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Outstanding Achievement Award
+  image: /images/sections/achievements/jcpenney.png
+  summary: An award instituted by JCPenney for saving $7000k on migrating Netcool to Splunk"
+- title: Outstanding Contribution Award
+  image: /images/sections/achievements/tcs-waitrose.png
+  summary: an award instituted by TCS-Waitrose (UK top Retailer) to recognize the individual for being agile and maintaining consistency in deliverables
+- title: Service & Commitment
+  image: /images/sections/achievements/tcs.png
+  summary: Commitment award for achieving customer satisfaction of 98%
+- title: The Best Automation Engineer
+  image: /images/sections/achievements/sport.jpg
+  summary: an award instituted for Automated builds to ~40 project teams in Dev, Test and production environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs.

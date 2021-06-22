@@ -1,0 +1,80 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Sr DevOps / Cloud Platform Engineer
+# your company information
+company:
+  name: Waitrose and Partners.
+  url: "https://www.waitrose.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/DhruvaKumar_CV.pdf"
+
+# a summary about you
+summary: |-
+  DevOps / Cloud Platform Engineer with 11+ years of experience, equipped with a fair knowledge of a repertoire of technologies used by the Waitrose (top retailer of UK), Servana Managed Services(Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
+
+  I like to adopt with the rapid changing technologies and implementing the same at work, well-versed in high-pressure, deadline-driven, target-focused environments. I helped smart people collaborate with transparency and agility, and I have dissected old monolith applications and gave them new life as micro services with the power of automation. Ability to work at high and low levels to understand all elements of the technical requirements to deliver flexible and scalable solutions in the cloud.
+
+  My area of focus lies in providing technical design, architect, and automating infrastructure in cloud & build CI/CD solutions for micro services and mobile applications. I enjoy implementing quick and smart DevOps/cloud platform engineering solutions ranging from automated one-click provisioning of environments, GitOps, shift-left security DevOps best practices, build and run resilient infrastructure, Zero downtime CI/CD, Configuration as code & Infrastructure as code, Container orchestration solutions, Cost review and optimisation, micro service log management, smart monitoring and alerting, performance tuning, ChatOps, etc.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "erion225@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/DhruvaKumar-Jonnagaddala"
+
+- name: Gitlab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.com/dhruvakumar.jonnagaddala"
+
+- name: Phone
+  icon: "fa fa-phone"
+  url: "+447440278065"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: HashiCorp Certified Terraform Associate
+  url: "https://www.credly.com/badges/3ccd11e1-f683-4ea3-a9b9-9cf5a9d8a65b/public_url"
+  badge: "https://images.credly.com/size/680x680/images/5b075140-d286-4c8a-9be9-2b87f9e10839/Terraform-Associate-Badge.png"
+
+- type: certification
+  name: Cloudbees Jenkins Engineer
+  url: "https://certificates.cloudbees.com/ec8d4dd1-6949-4f9a-84dc-05b8cb20a4a5"
+  badge: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13040731"
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

@@ -1,0 +1,17 @@
+# some information about you
+name: "Dhruva Kumar Jonnagaddala"
+nickname: "DhruvaKumar"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/dhruv.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "erion225@gmail.com"
+  phone: "+447440278065"
+
+# some summary about what you do
+summary:
+  - I am Devops Engineer
+  - I love automation
+  - I work on cloud migration projects
+  - I am huge fan for *ascode(ex - Infrastructure as code, Configuration as code, ..)

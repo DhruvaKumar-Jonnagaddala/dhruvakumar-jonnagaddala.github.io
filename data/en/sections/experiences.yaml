@@ -1,0 +1,169 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Waitrose
+    url: "https://www.waitrose.com"
+    location: Bracknell, United Kingdom
+    # company overview
+    overview: The DevOps/Cloud Platform team is entrusted with the task to build a self-managed cloud platform to re-platform for significant future e-commerce growth from IBM WCS to Amazon Web Services cloud.
+  positions:
+  - designation: Sr DevOps / Cloud Platform Engineer
+    start: Aug 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform.
+    - Configuration as code - Config management using ansible. Develop and maintain custom modules and plugins for custom functionality
+    - Design, develop and manage disaster recovery for waitrose.com ecommerce platform.
+    - Design, develop and implement GitOps and ChatOps solutions
+    - CI/CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
+    - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/upgrades
+    - Extensively working on key AWS services spread across all the domains and Strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
+    - Implementing AWS Well-Architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
+    - Analyse, review and finalize the design on tools implementation. Build and deploy automation solutions for 250+ Micro-services.
+    - Creating Cost optimisation metrics to Monitor, Optimize the total spend on cloud resources and Support Cost-Effective Resources.
+    - Implementing highly available Monitoring and Alerting solutions for Microservices and infrastructure components.
+    - Extensive experience in Infrastructure as Code (IaC) using cloudformation templates and terraform.
+    - Extensive experience with container-based deployments using Docker, working with Docker images and Docker registries.
+    - Extensive experience in provisioning and maintaining highly available Kubernetes clusters. Implemented multiple cluster security tools and Proficient knowledge with Helm charts to manage, release package.
+    - Implemented Zero Downtime End to End Automated CI/CD platform with Multi-Master Jenkins and other CI/CD tools. Working closely with a number of internal product teams to ensure developers can deploy and run the applications on cloud infrastructure with fast, reliable deployments via the pipelines
+    - Creating Ansible playbooks for provisioning, configuration and orchestrate deployments.
+    - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, Configuration beats.
+    - Developed and implemented multiple custom lambda functions for specific use cases.
+    - Successfully Implemented Site-2-Site VPN connections, SSO to CI/CD applications.
+    - Implemented Hashicorp Vault for Secrets Management and encryption as a service.
+    - Agile Project Management (Scrum Stories) using Jira Tool.
+
+- company:
+    name: Servana Managed Services
+    url: "https://www.servana.net"
+    location: Bangalore, India
+    overview: Team at Servana provides an efficient method of engaging skilled DevOps resources to build highly scalable platforms and the engineering teams to manage them. The DevOps team is entrusted to provide managed cloud services and a curated collection of opensource and licensed DevOps tools hosted platform. Managed tools hosting for CI/CD, Log Aggregation, Monitoring & Alerts, Source control and Project Management.
+  positions:
+  - designation: DevOps / Cloud Platform Engineer
+    start: Sep 2018
+    end: Aug 2019
+    responsibilities:
+    - |
+      **Complete procurement management automation of below mentioned DevOps tools on Kubernetes.**
+      - Productivity – Jira, Confluence & Service Desk
+      - Monitoring – Grafana, Elastic, Kibana & Prometheus
+      - Security – Black duck, Aqua Security, Clair
+      - Source Control – Gitlab, Bitbucket
+      - CI/CD – Jenkins Opensource, Cloud bees Core, Sonar, Sonatype Nexus, Jfrog Artifactory
+      - Testing – Selenium
+      - Container Orchestration – Swarm, Kubernetes & ECS
+      - Access and Identity management - Keycloak
+
+    - |
+      **Mobile Apps CI/CD**
+      - Built autoscaling mac agent leveraging VMWare ESXI hosts
+      - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins
+      - Implemented dependency cache management to Jenkins builds to speedup run times by 5x.
+      - Automated appstore integration and enterprise application code signing for iOS apps powered by Fastlane Tools
+
+    - |
+      **Platform highlights**
+      - 99.99% Platform availability to the customers
+      - Proactive monitoring enabled to detect issues in advance
+      - Highly scalable infrastructure with inbuilt security like SSL, IP whitelisting, WAF, Brute force detection, data encryption in transit and at rest
+      - Minimal downtime Jenkins upgrades with less than a minute
+      - Caching to make build run 5X faster
+      - Integrated with most popular DevOps tools in the market
+      - Updates and upgrades to the platform are driven through GitOps
+
+    - Built serverless opensource monitoring solution for web applications
+    - Contributed to few Opensource plugins
+
+- company:
+    name: JCPenney
+    url: "http://jcpenney.com/"
+    location: Bangalore
+    overview: JCPenney is a midscale American department store chain with 689 locations in 49 US states. DevOps Team at JCPenney is entrusted with a task of automating Infrastructure and network provisioning.
+  positions:
+  - designation: DevOps Engineer
+    start: Feb 2018
+    end: Sep 2018
+    responsibilities:
+    - Configuration management automation of WebLogic, WebSphere & Linux upgrades using ansible.
+    - Netcool to Splunk migration & automation
+    - NetScaler Big-IP certs renewal leveraging Python & Selenium API’s.
+    - Jira Administration user & license management automation leveraging Python & Jira’s RestAPI
+
+- company:
+    name: Tata Consultancy Services
+    url: https://www.tcs.com/
+    location: Uruguay, Chennai, Bangalore
+    overview: Tata Consultancy Services (TCS) is an Indian multinational information technology (IT) services and consulting company. Worked in different teams to serve different clients
+  positions:
+  - designation: DevOps Engineer
+    client: Waitrose
+    client_url: https://www.waitrose.com
+    start: Nov 2016
+    end: Jan 2018
+    overview: The DevOps team is entrusted with the task of migrating Waitrose eComm application from WCS to AWS cloud. Tasks involve in automation infrastructure provisioning, building and supporting the DTAP (Development, Testing, Acceptance and Production) environments for product teams to carry out the SDLC activities.
+    responsibilities:
+      - Automate Infra Components procurement using AWS (Amazon Web Services) Orchestration API's
+      - Creation of fasting booting operating system images (Windows, Linux, CentOS) with cloud-init and cloud-config enabled suitable for cloud
+      - Source code management using Bitbucket
+      - Configuration management using Ansible. Development of customized recipes and LWRP's in Ruby & Modules in Ansible
+      - Continues Integration and Deployment using Jenkins. Setting up of master and slaves, creation of Jenkins Jobs and Groovy Pipelines
+      - Implemented code quality gates leveraging Sonar Qube.
+      - Java and .Net Code build using ant, maven, and MS Build tools.
+      - Centralized management of binary code using JFrog & Nexus Artifactory.
+      - Containerization leveraging Docker/Kubernetes.
+      - Automation of manual steps using scripting languages (Bash, Shell PowerShell for windows)
+      - Standalone App Development using Core Java and develop small scaled Web applications using Java Spring.
+      - Agile Project Management (Scrum Stories) using Jira Tool.
+      - Take part of Scrum, Retrospective meetings with team and Ops team.
+      - Prepare weekly project status reports, risk mitigation plans, sent timely appropriate communications for escalations.
+      - Set goals to team members, conducted monthly performance review and half yearly evaluation; attended project auditing for TCS.
+  - designation: DevOps Engineer
+    client: Target Corporation
+    client_url: https://www.target.com/
+    start: Jun 2014
+    end: Oct 2016
+    overview: The DevOps team is entrusted with the task of automating Stores back office infrastructure builds and application setup from physical hardware to cloud infrastructure.
+    responsibilities:
+      - Enabled self-service tool for the developers and testers which procures the environments and notifies them via different channels (email, hipchat, service now).
+      - Overall environment build time wait reduced from 3 months to 1 hour. Infrastructure Automation was achieved with OpenStack Heat Orchestration API’s followed by application installs via Configuration management tool Chef.
+      - 99.99% Environment stability enabled via Elastic load balancers and Infra monitoring via Sensu.
+      - 140 Environments were migrated from physical infrastructure to cloud in a span of 4 months.
+      - Mitigated all challenges encountered with open source tools and with windows OS on cloud.
+      - Take part of Scrum, Retrospective meetings with team and Ops team.
+      - Prepare weekly project status reports, risk mitigation plans, sent timely appropriate communications for escalations.
+  - designation: Release and Automation Engineer
+    client: Target Corporation
+    client_url: https://www.target.com/
+    start: Apr 2010
+    end: Dec 2013
+    overview: |
+      The DevOps team is entrusted with the task of automating environment provisioning/builds and supporting the DTAP (Development, Testing, Acceptance and Production) environments for project teams to carry out the SDLC activities. DTF – Distribution Technology Foundation (WMOS 2013 Manhattan product) is one of the best automated environments builds among the 40 builds implemented.
+
+      WMOS Manhattan 2013, UNIX AIX 7.1, Oracle 11G
+
+      WMOS modules implemented: WM, LM, MIF, MIP, DIF, SCI, and Slotting
+
+        - WMOS 2013 Environments build automation from the scratch
+        - Environment Maintenance - shell scripts implementation
+        - Integrate new environments with interfacing systems automation
+        - Initial Defect triaging and tracking
+        - Automate patches (SDN) changes into DTAP environments
+        - Prepared weekly project status reports, build closure reports, risk mitigation plans, sent timely & appropriate communications for escalations
+    responsibilities:
+      - Consolidated the practices; simplified, standardized, automated and optimized them to reduce the cost of build by 40%, time of delivery by 70% and occurrence of defect by 65%; spearheading the team since its inception.
+      - Instrumental in bringing the enterprise wide decentralized and project owned build activities under one umbrella.
+      - We automated builds to ~40 project teams in DTAP environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs
+      - Assessed the profitability of moving the databases to cloud in Development and Test regions, as a result eliminated the cost of hardware cost by 80%
+      - 2-time awardee of Great Team card, an award instituted by the clients to recognize the teams for exhibiting excellence; honored to receive the award for “Outstanding performance” conferred by the executive vice president of the client organization

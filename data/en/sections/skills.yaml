@@ -1,0 +1,75 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Configured / Managed / Handled multiple kubernetes clusters. Capable of deploying, managing applications on Kubernetes powered by GitOps. Enabled fast, secure and reliable fully managed DevOps tools on kubernetes"
+  url: "https://kubernetes.io/"
+
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Certified terraform associate. Capable of writing scalable/testable and maintainable infrastructure as code."
+  url: "https://www.terraform.io/"
+
+- name: Ansible
+  logo: /images/sections/skills/ansible.svg
+  summary: "Written multiple ansible playbooks to achieve configuration management for both cloud and traditional infrastructure. Capable of developing custom ansible modules and plugins"
+  url: "https://www.ansible.com/"
+
+- name: Jenkins
+  logo: /images/sections/skills/jenkins.svg
+  summary: "Certified Cloudbees Jenkins administrator. Built fast, secure, reliable and zero downtime fully managed Jenkins / Cloudbees Jenkins service for Official Cloudbees Partners for EMEA. Capable of building complex CD pipelines"
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Expert in python core concepts. Developed and maintained custom python scripts/serverless lambdas to serve customer requirements"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked majorly on AWS cloud migration projects from tradional on perm infrastructure, beginner in GCP and Azure."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  url: "https://www.docker.com/"
+
+- name: Grafana
+  logo: /images/sections/skills/grafana-icon.svg
+  summary: "Built & Composed observability dashboards for waitrose.com ecomm platform using grafana. Enabled smart alerting for microservices powered by grafana"
+  url: "https://grafana.com/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Enabled HA for Prometheus setup with long term storage capabilities via Thanos."
+  url: "https://prometheus.io/"
+
+- name: PagerDuty
+  logo: /images/sections/skills/pagerduty.svg
+  summary: "Enabled end to end incident management solution powered by PagerDuty for waitrose (UK's top) retailer. Automated Pagerduty components CRUD operations using terraform"
+  url: "https://www.pagerduty.com/"
+
+- name: Elastic(ELK) Stack
+  logo: /images/sections/skills/elastic-stack.svg
+  summary: "Configured end to end ELK stack to monitor infrastructure, protect against security threats, and more. Capable of building complex kibana visualizations, timelion comparisons"
+  url: "https://www.elastic.co/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Used Github, Bitbucket and Gitlab."
+  url: "https://git-scm.com/"
+
+
