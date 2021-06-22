@@ -23,27 +23,28 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform.
-    - Configuration as code - Config management using ansible. Develop and maintain custom modules and plugins for custom functionality
-    - Design, develop and manage disaster recovery for waitrose.com ecommerce platform.
-    - Design, develop and implement GitOps and ChatOps solutions
-    - CI/CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
-    - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/upgrades
-    - Extensively working on key AWS services spread across all the domains and Strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
-    - Implementing AWS Well-Architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
-    - Analyse, review and finalize the design on tools implementation. Build and deploy automation solutions for 250+ Micro-services.
-    - Creating Cost optimisation metrics to Monitor, Optimize the total spend on cloud resources and Support Cost-Effective Resources.
-    - Implementing highly available Monitoring and Alerting solutions for Microservices and infrastructure components.
-    - Extensive experience in Infrastructure as Code (IaC) using cloudformation templates and terraform.
-    - Extensive experience with container-based deployments using Docker, working with Docker images and Docker registries.
-    - Extensive experience in provisioning and maintaining highly available Kubernetes clusters. Implemented multiple cluster security tools and Proficient knowledge with Helm charts to manage, release package.
-    - Implemented Zero Downtime End to End Automated CI/CD platform with Multi-Master Jenkins and other CI/CD tools. Working closely with a number of internal product teams to ensure developers can deploy and run the applications on cloud infrastructure with fast, reliable deployments via the pipelines
-    - Creating Ansible playbooks for provisioning, configuration and orchestrate deployments.
-    - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, Configuration beats.
-    - Developed and implemented multiple custom lambda functions for specific use cases.
-    - Successfully Implemented Site-2-Site VPN connections, SSO to CI/CD applications.
-    - Implemented Hashicorp Vault for Secrets Management and encryption as a service.
-    - Agile Project Management (Scrum Stories) using Jira Tool.
+
+    - |
+      Building components of the next generation of Waitrose infrastructure:
+        - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform. Configuration as code - Config management using ansible. Develop and maintain custom modules and plugins for custom functionality
+        - Design, develop and manage disaster recovery automation for waitrose.com
+        - Provision and maintaining highly available Kubernetes clusters. Implemented multiple cluster security tools and Proficient knowledge with Helm charts to manage, release package.
+    - |
+      Maximising uptime of the cloud infrastructure:
+        - Issue analysis & resolution support minimising the impact on uptime of the 'go live' process when releasing changes to the infrastructure.
+        - Developing configuration management systems modules
+        - Implementing highly available monitoring and alerting solutions for microservices and infrastructure components.
+        - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, Configuration beats.
+    - |
+      Building quality checks for the delivery team to apply early to the code pipeline
+        - CI/CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
+        - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/upgrades
+        - Extensively working on key AWS services spread across all the domains and Strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
+        - Implementing AWS Well-Architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
+        - Analyse, review and finalize the design on tools implementation. Build and deploy automation solutions for 250+ Micro-services.
+        - Creating Cost optimisation metrics to Monitor, Optimize the total spend on cloud resources and Support Cost-Effective Resources.
+        - Experience with container-based deployments using Docker, working with Docker images and Docker registries.
+
 
 - company:
     name: Servana Managed Services
@@ -65,14 +66,12 @@ experiences:
       - Testing – Selenium
       - Container Orchestration – Swarm, Kubernetes & ECS
       - Access and Identity management - Keycloak
-
     - |
       **Mobile Apps CI/CD**
       - Built autoscaling mac agent leveraging VMWare ESXI hosts
       - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins
       - Implemented dependency cache management to Jenkins builds to speedup run times by 5x.
       - Automated appstore integration and enterprise application code signing for iOS apps powered by Fastlane Tools
-
     - |
       **Platform highlights**
       - 99.99% Platform availability to the customers
@@ -82,9 +81,6 @@ experiences:
       - Caching to make build run 5X faster
       - Integrated with most popular DevOps tools in the market
       - Updates and upgrades to the platform are driven through GitOps
-
-    - Built serverless opensource monitoring solution for web applications
-    - Contributed to few Opensource plugins
 
 - company:
     name: JCPenney
@@ -116,13 +112,6 @@ experiences:
     responsibilities:
       - Automate Infra Components procurement using AWS (Amazon Web Services) Orchestration API's
       - Creation of fasting booting operating system images (Windows, Linux, CentOS) with cloud-init and cloud-config enabled suitable for cloud
-      - Source code management using Bitbucket
-      - Configuration management using Ansible. Development of customized recipes and LWRP's in Ruby & Modules in Ansible
-      - Continues Integration and Deployment using Jenkins. Setting up of master and slaves, creation of Jenkins Jobs and Groovy Pipelines
-      - Implemented code quality gates leveraging Sonar Qube.
-      - Java and .Net Code build using ant, maven, and MS Build tools.
-      - Centralized management of binary code using JFrog & Nexus Artifactory.
-      - Containerization leveraging Docker/Kubernetes.
       - Automation of manual steps using scripting languages (Bash, Shell PowerShell for windows)
       - Standalone App Development using Core Java and develop small scaled Web applications using Java Spring.
       - Agile Project Management (Scrum Stories) using Jira Tool.
@@ -132,7 +121,7 @@ experiences:
   - designation: DevOps Engineer
     client: Target Corporation
     client_url: https://www.target.com/
-    start: Jun 2014
+    start: Jan 2014
     end: Oct 2016
     overview: The DevOps team is entrusted with the task of automating Stores back office infrastructure builds and application setup from physical hardware to cloud infrastructure.
     responsibilities:
@@ -155,15 +144,8 @@ experiences:
 
       WMOS modules implemented: WM, LM, MIF, MIP, DIF, SCI, and Slotting
 
-        - WMOS 2013 Environments build automation from the scratch
-        - Environment Maintenance - shell scripts implementation
-        - Integrate new environments with interfacing systems automation
-        - Initial Defect triaging and tracking
-        - Automate patches (SDN) changes into DTAP environments
-        - Prepared weekly project status reports, build closure reports, risk mitigation plans, sent timely & appropriate communications for escalations
     responsibilities:
       - Consolidated the practices; simplified, standardized, automated and optimized them to reduce the cost of build by 40%, time of delivery by 70% and occurrence of defect by 65%; spearheading the team since its inception.
       - Instrumental in bringing the enterprise wide decentralized and project owned build activities under one umbrella.
-      - We automated builds to ~40 project teams in DTAP environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs
+      - Automated builds to ~40 project teams in DTAP environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs
       - Assessed the profitability of moving the databases to cloud in Development and Test regions, as a result eliminated the cost of hardware cost by 80%
-      - 2-time awardee of Great Team card, an award instituted by the clients to recognize the teams for exhibiting excellence; honored to receive the award for “Outstanding performance” conferred by the executive vice president of the client organization
