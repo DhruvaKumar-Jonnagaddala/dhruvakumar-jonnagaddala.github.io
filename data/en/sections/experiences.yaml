@@ -15,7 +15,7 @@ experiences:
     url: "https://www.waitrose.com"
     location: Bracknell, United Kingdom
     # company overview
-    overview: The DevOps/Cloud Platform team is entrusted with the task to build a self-managed cloud platform to re-platform for significant future e-commerce growth from IBM WCS to Amazon Web Services cloud.
+    overview: The DevOps/Cloud Platform team is entrusted with the task to build a self-managed cloud platform for significant future e-commerce growth from IBM WCS to Amazon Web Services.
   positions:
   - designation: Sr DevOps / Cloud Platform Engineer
     start: Aug 2019
@@ -25,24 +25,23 @@ experiences:
     responsibilities:
 
     - |
-      Building components of the next generation of Waitrose infrastructure:
-        - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform. Configuration as code - Config management using ansible. Develop and maintain custom modules and plugins for custom functionality
+      Build components of the next generation of Waitrose infrastructure:
+        - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform. Configuration as code - Config management using ansible. Develop and maintain custom ansible modules and plugins
         - Design, develop and manage disaster recovery automation for waitrose.com
-        - Provision and maintaining highly available Kubernetes clusters. Implemented multiple cluster security tools and Proficient knowledge with Helm charts to manage, release package.
+        - Provision and manage highly available Kubernetes clusters. Enable cluster security tools, release management and microservice deployments powered by helm.
     - |
       Maximising uptime of the cloud infrastructure:
         - Issue analysis & resolution support minimising the impact on uptime of the 'go live' process when releasing changes to the infrastructure.
-        - Developing configuration management systems modules
-        - Implementing highly available monitoring and alerting solutions for microservices and infrastructure components.
-        - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, Configuration beats.
+        - Implement highly available monitoring and alerting solutions for microservices and underlying infrastructure components.
+        - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, beats and logstash configuration.
     - |
       Building quality checks for the delivery team to apply early to the code pipeline
         - CI/CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
-        - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/upgrades
-        - Extensively working on key AWS services spread across all the domains and Strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
-        - Implementing AWS Well-Architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
-        - Analyse, review and finalize the design on tools implementation. Build and deploy automation solutions for 250+ Micro-services.
-        - Creating Cost optimisation metrics to Monitor, Optimize the total spend on cloud resources and Support Cost-Effective Resources.
+        - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/life cycle management.
+        - Work on key AWS services spread across all the domains and strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
+        - Implement AWS Well-architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
+        - Build and deploy automation solutions for 250+ Micro-services.
+        - Creating cost optimisation metrics to monitor, optimize the total spend on cloud resources and support cost effective resources.
         - Experience with container-based deployments using Docker, working with Docker images and Docker registries.
 
 
@@ -50,14 +49,14 @@ experiences:
     name: Servana Managed Services
     url: "https://www.servana.net"
     location: Bangalore, India
-    overview: Team at Servana provides an efficient method of engaging skilled DevOps resources to build highly scalable platforms and the engineering teams to manage them. The DevOps team is entrusted to provide managed cloud services and a curated collection of opensource and licensed DevOps tools hosted platform. Managed tools hosting for CI/CD, Log Aggregation, Monitoring & Alerts, Source control and Project Management.
+    overview: Team at Servana provides an efficient method of engaging skilled DevOps resources to build highly scalable platforms and the engineering teams to manage them. The team is entrusted to provide managed cloud services and a curated collection of opensource and licensed DevOps tools hosted platform.
   positions:
   - designation: DevOps / Cloud Platform Engineer
     start: Sep 2018
     end: Aug 2019
     responsibilities:
     - |
-      **Complete procurement management automation of below mentioned DevOps tools on Kubernetes.**
+      **End to end procurement and management of below mentioned DevOps tools on Kubernetes.**
       - Productivity – Jira, Confluence & Service Desk
       - Monitoring – Grafana, Elastic, Kibana & Prometheus
       - Security – Black duck, Aqua Security, Clair
@@ -71,14 +70,14 @@ experiences:
       - Built autoscaling mac agent leveraging VMWare ESXI hosts
       - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins
       - Implemented dependency cache management to Jenkins builds to speedup run times by 5x.
-      - Automated appstore integration and enterprise application code signing for iOS apps powered by Fastlane Tools
+      - Automated appstore integration and enterprise application code signing for iOS apps powered by opensource Fastlane Tools
     - |
       **Platform highlights**
-      - 99.99% Platform availability to the customers
-      - Proactive monitoring enabled to detect issues in advance
+      - 99.99% Platform availability for the customers
+      - Enable Proactive monitoring to detect issues in advance
       - Highly scalable infrastructure with inbuilt security like SSL, IP whitelisting, WAF, Brute force detection, data encryption in transit and at rest
       - Minimal downtime Jenkins upgrades with less than a minute
-      - Caching to make build run 5X faster
+      - Caching solutions to make build run 5X faster
       - Integrated with most popular DevOps tools in the market
       - Updates and upgrades to the platform are driven through GitOps
 
@@ -86,7 +85,7 @@ experiences:
     name: JCPenney
     url: "http://jcpenney.com/"
     location: Bangalore
-    overview: JCPenney is a midscale American department store chain with 689 locations in 49 US states. DevOps Team at JCPenney is entrusted with a task of automating Infrastructure and network provisioning.
+    overview: JCPenney is a midscale American department store chain with 689 locations in 49 US states. DevOps Team at JCPenney is entrusted with a task of automating infrastructure and network provisioning & patching.
   positions:
   - designation: DevOps Engineer
     start: Feb 2018
@@ -108,14 +107,12 @@ experiences:
     client_url: https://www.waitrose.com
     start: Nov 2016
     end: Jan 2018
-    overview: The DevOps team is entrusted with the task of migrating Waitrose eComm application from WCS to AWS cloud. Tasks involve in automation infrastructure provisioning, building and supporting the DTAP (Development, Testing, Acceptance and Production) environments for product teams to carry out the SDLC activities.
+    overview: The DevOps team is entrusted with the task of migrating Waitrose eComm application from IBM WCS to AWS cloud. Tasks involve in automation infrastructure provisioning, building and supporting the DTAP (Development, Testing, Acceptance and Production) environments for product teams to carry out the SDLC activities.
     responsibilities:
       - Automate Infra Components procurement using AWS (Amazon Web Services) Orchestration API's
       - Creation of fasting booting operating system images (Windows, Linux, CentOS) with cloud-init and cloud-config enabled suitable for cloud
       - Automation of manual steps using scripting languages (Bash, Shell PowerShell for windows)
       - Standalone App Development using Core Java and develop small scaled Web applications using Java Spring.
-      - Agile Project Management (Scrum Stories) using Jira Tool.
-      - Take part of Scrum, Retrospective meetings with team and Ops team.
       - Prepare weekly project status reports, risk mitigation plans, sent timely appropriate communications for escalations.
       - Set goals to team members, conducted monthly performance review and half yearly evaluation; attended project auditing for TCS.
   - designation: DevOps Engineer
@@ -123,19 +120,17 @@ experiences:
     client_url: https://www.target.com/
     start: Jan 2014
     end: Oct 2016
-    overview: The DevOps team is entrusted with the task of automating Stores back office infrastructure builds and application setup from physical hardware to cloud infrastructure.
+    overview: The DevOps team is entrusted with the task of automating stores back office infrastructure builds and application setup from physical hardware to cloud infrastructure.
     responsibilities:
       - Enabled self-service tool for the developers and testers which procures the environments and notifies them via different channels (email, hipchat, service now).
-      - Overall environment build time wait reduced from 3 months to 1 hour. Infrastructure Automation was achieved with OpenStack Heat Orchestration API’s followed by application installs via Configuration management tool Chef.
+      - Overall environment build time wait reduced from 3 months to 1 hour. Infrastructure automation was achieved with OpenStack Heat Orchestration API’s followed by application installs via Configuration management tool Chef.
       - 99.99% Environment stability enabled via Elastic load balancers and Infra monitoring via Sensu.
       - 140 Environments were migrated from physical infrastructure to cloud in a span of 4 months.
       - Mitigated all challenges encountered with open source tools and with windows OS on cloud.
-      - Take part of Scrum, Retrospective meetings with team and Ops team.
-      - Prepare weekly project status reports, risk mitigation plans, sent timely appropriate communications for escalations.
   - designation: Release and Automation Engineer
     client: Target Corporation
     client_url: https://www.target.com/
-    start: Apr 2010
+    start: May 2011
     end: Dec 2013
     overview: |
       The DevOps team is entrusted with the task of automating environment provisioning/builds and supporting the DTAP (Development, Testing, Acceptance and Production) environments for project teams to carry out the SDLC activities. DTF – Distribution Technology Foundation (WMOS 2013 Manhattan product) is one of the best automated environments builds among the 40 builds implemented.
@@ -149,3 +144,15 @@ experiences:
       - Instrumental in bringing the enterprise wide decentralized and project owned build activities under one umbrella.
       - Automated builds to ~40 project teams in DTAP environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs
       - Assessed the profitability of moving the databases to cloud in Development and Test regions, as a result eliminated the cost of hardware cost by 80%
+
+  - designation: Support and Release management
+    client: Target Corporation
+    client_url: https://www.target.com/
+    start: Apr 2010
+    end: Apr 2011
+    overview: The team provides 24X7 level-1 and level-2 environmental support to Supply portfolio applications in Training, Dev, Test, and Staging areas. As part of level-1, the objective of the team is to ensure the environment availability for project teams to carry out dev or testing activities. As part of level 2, team takes care of code refresh, configuration and fulfilling the project teams’ requests to copy the production data to non-production databases.
+    responsibilities:
+      - Analyzed and resolved environmental/certificate/security/configuration related issues in Control M, ETL Data stage, Java apps running on IBM WAS servers, Unix/Windows servers, oracle databases and Vendor supplied application servers.
+      - Planned and executed cyclic (3 times a year) data and region refresh activities that involved 50 regions and 35 databases.
+      - Scheduled CRs (HPSD and Service-Now tools) and deployed the code (BMC TAD, MSTFS tools) in staging and production environments during release periods
+      - Managed code versioning and reduced code conflicts through better coordination among project teams.
