@@ -23,7 +23,7 @@ skills:
 
 - name: Ansible
   logo: /images/sections/skills/ansible.svg
-  summary: "Written multiple ansible playbooks to achieve configuration management for both cloud and traditional infrastructure. Capable of developing custom ansible modules and plugins"
+  summary: 'Written multiple ansible playbooks to achieve configuration management for both cloud and traditional infrastructure. Capable of developing custom ansible modules and plugins'
   url: "https://www.ansible.com/"
 
 - name: Jenkins
@@ -71,5 +71,10 @@ skills:
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Used Github, Bitbucket and Gitlab."
   url: "https://git-scm.com/"
+
+- name: Keycloak
+  logo: /images/sections/skills/keycloak.svg
+  summary: "Experienced in setting up SSO powered by SAML/OAuth2.0 for DevOps tools"
+  url: https://www.keycloak.org/
 
 

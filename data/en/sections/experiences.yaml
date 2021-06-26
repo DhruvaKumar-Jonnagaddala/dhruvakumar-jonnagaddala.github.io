@@ -23,16 +23,18 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-
+    - Led efforts to transition legacy infrastructure to the cloud, built a self service portal for provisioning and de-provisioning of resources, ensuring automation and resilience of the solution.
+    - Managed, provisioned and configured cloud platforms and services as Amazon AWS and Google Cloud Platform for various business units majorly E-commerce.
     - |
       Build components of the next generation of Waitrose infrastructure:
-        - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform. Configuration as code - Config management using ansible. Develop and maintain custom ansible modules and plugins
-        - Design, develop and manage disaster recovery automation for waitrose.com
+        - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform. Configuration as code - Config management using ansible. Also develop and maintain custom ansible modules and plugins.
+        - Design, develop and manage disaster recovery automation for waitrose.com.
         - Provision and manage highly available Kubernetes clusters. Enable cluster security tools, release management and microservice deployments powered by helm.
     - |
       Maximising uptime of the cloud infrastructure:
         - Issue analysis & resolution support minimising the impact on uptime of the 'go live' process when releasing changes to the infrastructure.
-        - Implement highly available monitoring and alerting solutions for microservices and underlying infrastructure components.
+        - Managed day-to-day operations of the AWS environment and other cloud platforms including, but not limited to, deploying and maintaining applications and server infrastructure, user management and access control, Log Aggregation using Elastic Stack(ELK) and performance monitoring.
+        - Instrumented over 150+ micro services and developed automated monitoring and solutions  for Microservices and underlying infrastructure components powered by popular tools(cloud watch, grafana, prometheus, pagerduty - on call integration).
         - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, beats and logstash configuration.
     - |
       Building quality checks for the delivery team to apply early to the code pipeline
@@ -40,7 +42,6 @@ experiences:
         - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/life cycle management.
         - Work on key AWS services spread across all the domains and strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
         - Implement AWS Well-architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
-        - Build and deploy automation solutions for 250+ Micro-services.
         - Creating cost optimisation metrics to monitor, optimize the total spend on cloud resources and support cost effective resources.
         - Experience with container-based deployments using Docker, working with Docker images and Docker registries.
 
@@ -57,29 +58,29 @@ experiences:
     responsibilities:
     - |
       **End to end procurement and management of below mentioned DevOps tools on Kubernetes.**
-      - Productivity – Jira, Confluence & Service Desk
-      - Monitoring – Grafana, Elastic, Kibana & Prometheus
-      - Security – Black duck, Aqua Security, Clair
-      - Source Control – Gitlab, Bitbucket
-      - CI/CD – Jenkins Opensource, Cloud bees Core, Sonar, Sonatype Nexus, Jfrog Artifactory
-      - Testing – Selenium
-      - Container Orchestration – Swarm, Kubernetes & ECS
-      - Access and Identity management - Keycloak
+        - Productivity – Jira, Confluence & Service Desk.
+        - Monitoring – Grafana, Elastic, Kibana & Prometheus.
+        - Security – Black duck, Aqua Security, Clair.
+        - Source Control – Gitlab, Bitbucket.
+        - CI/CD – Jenkins Opensource, Cloud bees Core, Sonar, Sonatype Nexus, Jfrog Artifactory.
+        - Testing – Selenium.
+        - Container Orchestration – Swarm, Kubernetes & ECS.
+        - Access and Identity management - Keycloak.
     - |
       **Mobile Apps CI/CD**
-      - Built autoscaling mac agent leveraging VMWare ESXI hosts
-      - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins
-      - Implemented dependency cache management to Jenkins builds to speedup run times by 5x.
-      - Automated appstore integration and enterprise application code signing for iOS apps powered by opensource Fastlane Tools
+        - Built autoscaling mac agent leveraging VMWare ESXI hosts.
+        - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins.
+        - Implemented dependency cache management to Jenkins builds to speedup run times by 5x.
+        - Automated appstore integration and enterprise application code signing for iOS apps powered by opensource Fastlane Tools.
     - |
       **Platform highlights**
-      - 99.99% Platform availability for the customers
-      - Enable Proactive monitoring to detect issues in advance
-      - Highly scalable infrastructure with inbuilt security like SSL, IP whitelisting, WAF, Brute force detection, data encryption in transit and at rest
-      - Minimal downtime Jenkins upgrades with less than a minute
-      - Caching solutions to make build run 5X faster
-      - Integrated with most popular DevOps tools in the market
-      - Updates and upgrades to the platform are driven through GitOps
+        - 99.99% Platform availability for the customers.
+        - Enable Proactive monitoring to detect issues in advance.
+        - Highly scalable infrastructure with inbuilt security SSL, IP whitelisting, WAF, Brute force detection, data encryption in transit and at rest.
+        - Minimal downtime Jenkins upgrades with less than a minute.
+        - Caching solutions to make build run 5X faster.
+        - Integrated with most popular DevOps tools in the market.
+        - Updates and upgrades to the platform driven through GitOps.
 
 - company:
     name: JCPenney
@@ -92,15 +93,15 @@ experiences:
     end: Sep 2018
     responsibilities:
     - Configuration management automation of WebLogic, WebSphere & Linux upgrades using ansible.
-    - Netcool to Splunk migration & automation
+    - Netcool to Splunk migration & automation.
     - NetScaler Big-IP certs renewal leveraging Python & Selenium API’s.
-    - Jira Administration user & license management automation leveraging Python & Jira’s RestAPI
+    - Jira Administration user & license management automation leveraging Python & Jira’s RestAPI.
 
 - company:
     name: Tata Consultancy Services
     url: https://www.tcs.com/
     location: Uruguay, Chennai, Bangalore
-    overview: Tata Consultancy Services (TCS) is an Indian multinational information technology (IT) services and consulting company. Worked in different teams to serve different clients
+    overview: Tata Consultancy Services (TCS) is an Indian multinational information technology (IT) services and consulting company. Worked in different teams to serve different clients.
   positions:
   - designation: DevOps Engineer
     client: Waitrose
@@ -109,10 +110,8 @@ experiences:
     end: Jan 2018
     overview: The DevOps team is entrusted with the task of migrating Waitrose eComm application from IBM WCS to AWS cloud. Tasks involve in automation infrastructure provisioning, building and supporting the DTAP (Development, Testing, Acceptance and Production) environments for product teams to carry out the SDLC activities.
     responsibilities:
-      - Automate Infra Components procurement using AWS (Amazon Web Services) Orchestration API's
-      - Creation of fasting booting operating system images (Windows, Linux, CentOS) with cloud-init and cloud-config enabled suitable for cloud
+      - Automate infra Components procurement using AWS (Amazon Web Services) Orchestration API's.
       - Automation of manual steps using scripting languages (Bash, Shell PowerShell for windows)
-      - Standalone App Development using Core Java and develop small scaled Web applications using Java Spring.
       - Prepare weekly project status reports, risk mitigation plans, sent timely appropriate communications for escalations.
       - Set goals to team members, conducted monthly performance review and half yearly evaluation; attended project auditing for TCS.
   - designation: DevOps Engineer
@@ -123,7 +122,7 @@ experiences:
     overview: The DevOps team is entrusted with the task of automating stores back office infrastructure builds and application setup from physical hardware to cloud infrastructure.
     responsibilities:
       - Enabled self-service tool for the developers and testers which procures the environments and notifies them via different channels (email, hipchat, service now).
-      - Overall environment build time wait reduced from 3 months to 1 hour. Infrastructure automation was achieved with OpenStack Heat Orchestration API’s followed by application installs via Configuration management tool Chef.
+      - Overall environment build time wait reduced from 3 months to 1 hour. Infrastructure automation achieved with OpenStack Heat Orchestration API’s followed by application installs via Configuration management tool Chef.
       - 99.99% Environment stability enabled via Elastic load balancers and Infra monitoring via Sensu.
       - 140 Environments were migrated from physical infrastructure to cloud in a span of 4 months.
       - Mitigated all challenges encountered with open source tools and with windows OS on cloud.
@@ -142,17 +141,17 @@ experiences:
     responsibilities:
       - Consolidated the practices; simplified, standardized, automated and optimized them to reduce the cost of build by 40%, time of delivery by 70% and occurrence of defect by 65%; spearheading the team since its inception.
       - Instrumental in bringing the enterprise wide decentralized and project owned build activities under one umbrella.
-      - Automated builds to ~40 project teams in DTAP environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs
-      - Assessed the profitability of moving the databases to cloud in Development and Test regions, as a result eliminated the cost of hardware cost by 80%
+      - Automated builds to ~40 project teams in DTAP environments; assembled 200+ applications/systems that consisted of 50+ Unix/Windows servers, 100+ Oracle/SQL DBs, 400 Web Sphere JVMs.
+      - Assessed the profitability of moving the databases to cloud in Development and Test regions, as a result eliminated the cost of hardware cost by 80%.
 
   - designation: Support and Release management
     client: Target Corporation
     client_url: https://www.target.com/
     start: Apr 2010
     end: Apr 2011
-    overview: The team provides 24X7 level-1 and level-2 environmental support to Supply portfolio applications in Training, Dev, Test, and Staging areas. As part of level-1, the objective of the team is to ensure the environment availability for project teams to carry out dev or testing activities. As part of level 2, team takes care of code refresh, configuration and fulfilling the project teams’ requests to copy the production data to non-production databases.
+    overview: The team provides 24X7 level-1 and level-2 environmental support to Supply portfolio applications in Training, Dev, Test, and Staging areas. As part of level-1, the objective of the team is to ensure the environment availability for project teams to carry out dev or testing activities. As part of level 2, team takes care of code refresh, configuration and fulfilling the project teams requests to copy the production data to non-production databases.
     responsibilities:
       - Analyzed and resolved environmental/certificate/security/configuration related issues in Control M, ETL Data stage, Java apps running on IBM WAS servers, Unix/Windows servers, oracle databases and Vendor supplied application servers.
       - Planned and executed cyclic (3 times a year) data and region refresh activities that involved 50 regions and 35 databases.
       - Scheduled CRs (HPSD and Service-Now tools) and deployed the code (BMC TAD, MSTFS tools) in staging and production environments during release periods
-      - Managed code versioning and reduced code conflicts through better coordination among project teams.
+      - Managed code versioning in MS-TFS and reduced code conflicts through better coordination among project teams.
