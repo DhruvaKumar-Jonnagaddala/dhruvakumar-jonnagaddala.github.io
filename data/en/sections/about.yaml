@@ -17,6 +17,8 @@ company:
 # your resume. this file path should be relative to you "static" directory
 resume: "files/DhruvaKumar_CV.pdf"
 
+resume_docx: "files/DhruvaKumar_CV.docx"
+
 # a summary about you
 summary: |-
   DevOps / Cloud Platform Engineer with 11+ years of experience, equipped with a fair knowledge of a repertoire of technologies used by the Waitrose (top retailer of UK), Servana Managed Services(Official Cloudbees Partners for EMEA) & Target (US second largest retailer).

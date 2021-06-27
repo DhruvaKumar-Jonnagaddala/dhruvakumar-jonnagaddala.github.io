@@ -12,7 +12,10 @@ other = "Table of Contents"
 other = "at"
 
 [resume]
-other = "My resume"
+other = "Resume (.pdf)"
+
+[resume_docx]
+other = "Resume (.docx)"
 
 [navigation]
 other = "Navigation"

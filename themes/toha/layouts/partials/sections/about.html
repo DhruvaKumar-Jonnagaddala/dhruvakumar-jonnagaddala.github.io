@@ -41,8 +41,9 @@
       </div>
       {{ if .resume }}
       <a href="{{ .resume | relURL }}" title="{{ i18n "resume"}}" target="#"
-        ><button class="btn btn-dark">{{ i18n "resume"}}</button></a
-      >
+        ><button class="btn btn-dark">{{ i18n "resume"}}</button></a>
+        <a href="{{ .resume_docx | relURL }}" title="{{ i18n "resume_docx"}}" target="#"
+        ><button class="btn btn-dark">{{ i18n "resume_docx"}}</button></a>
       {{ end }}
     </div>
     <!-- soft skills circular-progressbar -->
