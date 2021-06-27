@@ -26,24 +26,27 @@ experiences:
     - Led efforts to transition legacy infrastructure to the cloud, built a self service portal for provisioning and de-provisioning of resources, ensuring automation and resilience of the solution.
     - Managed, provisioned and configured cloud platforms and services as Amazon AWS and Google Cloud Platform for various business units majorly E-commerce.
     - |
+      >
       Build components of the next generation of Waitrose infrastructure:
-        - Infrastructure as code - Cloud infrastructure provisioning via Cloudformation and Terraform. Configuration as code - Config management using ansible. Also develop and maintain custom ansible modules and plugins.
+        - **Infrastructure as code** - Cloud infrastructure provisioning via Cloudformation and Terraform. **Configuration as code** - Config management using ansible. Also develop and maintain custom ansible modules and plugins.
         - Design, develop and manage disaster recovery automation for waitrose.com.
-        - Provision and manage highly available Kubernetes clusters. Enable cluster security tools, release management and microservice deployments powered by helm.
+        - Provision and manage highly available Kubernetes clusters. Enable cluster security tools, release management and microservice zero down time deployments.
+      >
     - |
       Maximising uptime of the cloud infrastructure:
+      >
         - Issue analysis & resolution support minimising the impact on uptime of the 'go live' process when releasing changes to the infrastructure.
         - Managed day-to-day operations of the AWS environment and other cloud platforms including, but not limited to, deploying and maintaining applications and server infrastructure, user management and access control, Log Aggregation using Elastic Stack(ELK) and performance monitoring.
         - Instrumented over 150+ micro services and developed automated monitoring and solutions  for Microservices and underlying infrastructure components powered by popular tools(cloud watch, grafana, prometheus, pagerduty - on call integration).
         - Log Aggregation using ELK, Cluster sizing and capacity planning, Index management, beats and logstash configuration.
+      >
     - |
+      >
       Building quality checks for the delivery team to apply early to the code pipeline
-        - CI/CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
+        - CI / CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
         - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/life cycle management.
-        - Work on key AWS services spread across all the domains and strong knowledge in the design and deploying dynamically scalable, highly available, reliable and fault-tolerant systems.
-        - Implement AWS Well-architected framework to ensure high-performing, resilient and efficient infrastructure for the applications and workloads.
-        - Creating cost optimisation metrics to monitor, optimize the total spend on cloud resources and support cost effective resources.
         - Experience with container-based deployments using Docker, working with Docker images and Docker registries.
+      >
 
 
 - company:
@@ -58,29 +61,29 @@ experiences:
     responsibilities:
     - |
       **End to end procurement and management of below mentioned DevOps tools on Kubernetes.**
-        - Productivity – Jira, Confluence & Service Desk.
-        - Monitoring – Grafana, Elastic, Kibana & Prometheus.
-        - Security – Black duck, Aqua Security, Clair.
-        - Source Control – Gitlab, Bitbucket.
-        - CI/CD – Jenkins Opensource, Cloud bees Core, Sonar, Sonatype Nexus, Jfrog Artifactory.
-        - Testing – Selenium.
-        - Container Orchestration – Swarm, Kubernetes & ECS.
-        - Access and Identity management - Keycloak.
+        > **Productivity** – (Jira, Confluence & Service Desk)
+        **Monitoring** – (Grafana, Elastic, Kibana & Prometheus)
+        **Security** – (Black duck, Aqua Security, Clair)
+        **Source Control** – (Gitlab, Bitbucket)
+        **CI/CD** – (Jenkins, Cloud bees Core, Gitlab CI, Sonar, Sonatype Nexus, Jfrog Artifactory)
+        **Testing** – (Selenium Grid, Zalenium)
+        **Container Orchestration** – (Swarm, Kubernetes & ECS)
+        **Access and Identity management** - (Keycloak/LDAP/AD)
     - |
       **Mobile Apps CI/CD**
-        - Built autoscaling mac agent leveraging VMWare ESXI hosts.
+        >
+        - Build and manage autoscaling mac agents leveraging VMWare ESXI hosts.
         - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins.
-        - Implemented dependency cache management to Jenkins builds to speedup run times by 5x.
         - Automated appstore integration and enterprise application code signing for iOS apps powered by opensource Fastlane Tools.
+        >
     - |
       **Platform highlights**
+        >
         - 99.99% Platform availability for the customers.
         - Enable Proactive monitoring to detect issues in advance.
-        - Highly scalable infrastructure with inbuilt security SSL, IP whitelisting, WAF, Brute force detection, data encryption in transit and at rest.
-        - Minimal downtime Jenkins upgrades with less than a minute.
-        - Caching solutions to make build run 5X faster.
-        - Integrated with most popular DevOps tools in the market.
+        - Minimal downtime DevOps tool upgrades.
         - Updates and upgrades to the platform driven through GitOps.
+        >
 
 - company:
     name: JCPenney
