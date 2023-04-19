@@ -11,6 +11,54 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Servana Managed Services
+    url: "https://servanamanaged.com/"
+    location: Bangalore, India
+    overview: Team at Servana provides an efficient method of engaging skilled DevOps resources to build highly scalable platforms and the engineering teams to manage them. The team is entrusted to provide managed cloud services and a curated collection of opensource and licensed DevOps tools hosted platform. Designing, implementing and managing cloud-based infrastructure and applications using AWS, GCP and Azure
+  positions:
+  - designation: DevOps / Cloud Platform Engineer
+    start: Sep 2021
+    responsibilities:
+    - |
+      **DevOps as a Service**
+       > 
+       - Delivered successful projects with a variety of customers in Retail, E-Commerce, CyberSecurity and Fintech to name a few with all the major cloud vendors like Amazon Web Services, Google Cloud and Microsoft Azure meeting demanding deadlines and high standards of craftmanship and cooperation.
+       - Helped in building reliable, secure, cost-optimised application platforms that are fully managed using infrastructure-as-code tools and software development pipelines.
+       - The platforms are built with automated pipelines, integrated monitoring and alerting, granular security with role based access at all levels and tested continuously for reliability.
+       >
+    - |
+      **Continuous Integration & Delivery Consulting**
+      >
+      - Worked with all kinds of different environments and with over a decade of commercial experience in the software development industry. Improved nonproduction environments to bring inline with production.
+      - Improved performance of the pipelines. Builds taking from over 10 minutes were optimised to under three minutes
+      
+    - |
+      **End to end procurement and management of below mentioned DevOps tools on Hybrid cloud.**
+        > **Productivity** – (Jira, Confluence & Service Desk)
+        **Monitoring** – (Grafana, Elastic, Kibana & Prometheus)
+        **Security** – (Black duck, Aqua Security, Clair)
+        **Source Control** – (Gitlab, Bitbucket)
+        **CI/CD** – (Jenkins, Cloud bees Core, Gitlab CI, Sonar, Sonatype Nexus, Jfrog Artifactory)
+        **Testing** – (Selenium Grid, Zalenium)
+        **Container Orchestration** – (Swarm, Kubernetes & ECS)
+        **Access and Identity management** - (Keycloak/LDAP/AD)
+    - |
+      **Mobile Apps CI/CD**
+        >
+        - Build and manage autoscaling mac agents leveraging VMWare ESXI hosts.
+        - Designed pipelines for iOS and Android Dev teams and assisted quick migration from Bitrise to Jenkins.
+        - Automated appstore integration and enterprise application code signing for iOS apps powered by opensource Fastlane Tools.
+        >
+    - |
+      **Platform highlights**
+        >
+        - 99.99% Platform availability for the customers.
+        - Enable Proactive monitoring to detect issues in advance.
+        - Minimal downtime DevOps tool upgrades.
+        - Updates and upgrades to the platform driven through GitOps.
+        >
+
+- company:
     name: Waitrose
     url: "https://www.waitrose.com"
     location: Bracknell, United Kingdom
@@ -20,7 +68,7 @@ experiences:
   - designation: Sr DevOps / Cloud Platform Engineer
     start: Aug 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Aug 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Led efforts to transition legacy infrastructure to the cloud, built a self service portal for provisioning and de-provisioning of resources, ensuring automation and resilience of the solution.
