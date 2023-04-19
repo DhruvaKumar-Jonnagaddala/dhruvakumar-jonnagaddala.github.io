@@ -21,7 +21,7 @@ resume_docx: "files/DhruvaKumar_CV.docx"
 
 # a summary about you
 summary: |-
-  DevOps / Cloud Platform Engineer with 11+ years of experience, equipped with a fair knowledge of a repertoire of technologies used by the Waitrose (top retailer of UK), Servana Managed Services(Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
+  DevOps / Cloud Platform Engineer with 13+ years of experience, equipped with a fair knowledge of a repertoire of technologies used by the Waitrose (top retailer of UK), Servana Managed Services(Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
 
   - I like to adopt with the rapid changing technologies and implementing the same at work, well-versed in high-pressure, deadline-driven, target-focused environments. 
   - I enjoy implementing quick and smart DevOps / Cloud platform engineering solutions. Few of them mentioned are below
@@ -57,7 +57,7 @@ badges:
 - type: certification
   name: HashiCorp Certified Terraform Associate
   url: "https://www.credly.com/badges/3ccd11e1-f683-4ea3-a9b9-9cf5a9d8a65b/public_url"
-  badge: "https://images.credly.com/size/680x680/images/5b075140-d286-4c8a-9be9-2b87f9e10839/Terraform-Associate-Badge.png"
+  badge: "https://images.credly.com/size/340x340/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
 
 - type: certification
   name: Cloudbees Jenkins Engineer
