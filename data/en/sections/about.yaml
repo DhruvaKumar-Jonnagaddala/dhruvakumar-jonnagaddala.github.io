@@ -11,8 +11,8 @@ section:
 designation: Sr DevOps / Cloud Platform Engineer
 # your company information
 company:
-  name: Waitrose and Partners.
-  url: "https://www.waitrose.com"
+  name: Servana Managed Services
+  url: "https://servanamanaged.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/DhruvaKumar_CV.pdf"
