@@ -29,7 +29,10 @@
         {{ end }}
         ></span>
     </span>
-    <div class="circular-progress-value">{{ .name }}</div>
+    <div class="circular-progress-value">
+        {{ if .icon }}<i class="circular-progress-icon {{ .icon }}"></i>{{ end }}
+        <span class="circular-progress-label">{{ .name }}</span>
+    </div>
     </div>
 {{ end }}
 </div>

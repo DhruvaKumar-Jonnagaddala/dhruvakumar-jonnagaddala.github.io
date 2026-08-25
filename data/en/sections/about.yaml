@@ -67,26 +67,31 @@ badges:
 
 - type: soft-skill-indicator
   name: Team Work
+  icon: "fas fa-users"
   percentage: 100
   color: blue
 
 - type: soft-skill-indicator
   name: Hard Working
+  icon: "fas fa-fire"
   percentage: 100
   color: orange
 
 - type: soft-skill-indicator
   name: Leadership
+  icon: "fas fa-crown"
   percentage: 100
   color: yellow
 
 - type: soft-skill-indicator
   name: Mentoring
+  icon: "fas fa-chalkboard-teacher"
   percentage: 100
   color: green
 
 - type: soft-skill-indicator
   name: Stakeholder Management
+  icon: "fas fa-handshake"
   percentage: 100
   color: pink
 

@@ -11,6 +11,8 @@
           {{ end }}
 
           <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
+        {{ else if .icon }}
+          <i class="card-icon-xs {{ .icon }}"></i>
         {{ end }}
         <h5 class="card-title">{{ .name }}</h5>
       </div>

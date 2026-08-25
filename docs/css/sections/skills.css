@@ -16,6 +16,15 @@
   margin-right: 0.5rem;
 }
 
+.skills-section .card .card-icon-xs {
+  width: 24px;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  line-height: 24px;
+  text-align: center;
+  color: #3c4858;
+}
+
 .skills-section .card {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

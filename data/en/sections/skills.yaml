@@ -13,7 +13,7 @@ section:
 skills:
 # --- Architecture & Strategy ---
 - name: Multi-Cloud & Enterprise Architecture
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-sitemap"
   summary: "Solution and enterprise architecture across AWS, Azure and GCP — cloud strategy and adoption, migration and modernisation, and evaluating multi-cloud placement for cost, compliance and vendor lock-in trade-offs."
 
 - name: Cloud Computing
@@ -21,19 +21,19 @@ skills:
   summary: "AWS is my primary cloud (EC2, ECS, EKS, Lambda, S3, RDS, CloudFront, API Gateway, DynamoDB). Architected production workloads on Azure (AKS, APIM, Azure AD, App Gateway) and GCP (GKE, Cloud Run, BigQuery, BigTable) across multi-cloud migration engagements."
 
 - name: Well-Architected Frameworks
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-clipboard-check"
   summary: "Design and review workloads against the AWS, Azure and GCP Well-Architected Frameworks — security, reliability, performance efficiency, cost optimisation and operational excellence pillars — to drive architecture decisions and remediation backlogs."
 
 - name: Zero Trust & Compliance
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-shield-alt"
   summary: "Architected Zero Trust, PCI DSS Level 1 compliant payment platforms — IAM policies, network segmentation and encryption standards enforced as policy-as-code across all environments."
 
 - name: Zero Trust Network Access & VPN
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-lock"
   summary: "Implemented Zero Trust network boundaries using HashiCorp Boundary, WireGuard, and client/site-to-site VPNs (AWS Client VPN, Azure VPN Gateway) for secure, identity-aware access to private cloud resources without a flat network perimeter."
 
 - name: DR & High Availability
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-heartbeat"
   summary: "Designed disaster-recovery automation and high-availability failover for production platforms, sustaining 99.9%-99.99% uptime SLAs across 150+ microservices and hybrid-cloud estates."
 
 # --- Infrastructure as Code & Automation ---
@@ -84,11 +84,11 @@ skills:
 
 # --- Generative AI & Agentic Platforms ---
 - name: Generative AI / AWS Bedrock
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-robot"
   summary: "Building agentic support automation on AWS Bedrock and Bedrock AgentCore, integrated into existing platform engineering toolchains."
 
 - name: Agentic AI & MCP
-  logo: /images/sections/skills/cloud.png
+  icon: "fas fa-brain"
   summary: "Building agents with the Strands Agents SDK and setting up Model Context Protocol (MCP) servers/clients to give LLMs tool access. Hands-on with multi-agent orchestration, tool/function calling, RAG pipelines and prompt engineering for production-grade GenAI workflows."
 
 # --- Core Tools & Languages ---
