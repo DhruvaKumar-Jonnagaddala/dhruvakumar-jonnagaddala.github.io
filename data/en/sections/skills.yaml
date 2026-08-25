@@ -18,7 +18,7 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "AWS is my primary cloud (EC2, ECS, EKS, Lambda, S3, RDS, CloudFront, API Gateway, DynamoDB). Architected production workloads on Azure (AKS, APIM, Azure AD, App Gateway) and GCP (GKE, Cloud Run, BigQuery, BigTable) across multi-cloud migration engagements."
+  summary: "AWS is my primary cloud — strongest with VPC, WAF, VPNs, IAM, Control Tower, SSO, EKS, CloudWatch, Lambda, DynamoDB, SNS, SQS, CloudFormation, ALB, EC2, Auto Scaling, ECR and code signing. Architected production workloads on Azure (AKS, APIM, Azure AD, App Gateway) and GCP (GKE, Cloud Run, BigQuery, BigTable) across multi-cloud migration engagements."
 
 - name: Well-Architected Frameworks
   icon: "fas fa-clipboard-check"
@@ -46,10 +46,24 @@ skills:
   icon: "fas fa-infinity"
   summary: "Driving declarative, Git-as-source-of-truth deployments with ArgoCD and FluxCD v2 — automated sync/reconciliation, drift detection and rollback across Kubernetes clusters, replacing manual kubectl/Helm-driven releases."
 
+- name: Nomad
+  icon: "fas fa-cubes"
+  summary: "HashiCorp Nomad for lightweight, flexible workload orchestration across containers, VMs and batch jobs — used alongside Terraform in the HashiCorp stack for scheduling where a full Kubernetes control plane is overkill."
+  url: "https://www.nomadproject.io/"
+
 - name: Terraform
   logo: /images/sections/skills/terraform.png
   summary: "HashiCorp Certified Terraform Associate. Capable of writing scalable, testable and maintainable infrastructure as code across multi-account, multi-cloud environments."
   url: "https://www.terraform.io/"
+
+- name: Vault
+  icon: "fas fa-key"
+  summary: "HashiCorp Vault for centralised secrets management, dynamic credentials and encryption-as-a-service — eliminating hardcoded secrets across CI/CD pipelines and cloud infrastructure."
+  url: "https://www.vaultproject.io/"
+
+- name: Linux KVM & VM Automation
+  icon: "fas fa-server"
+  summary: "Provisioned and managed Linux KVM virtual machines with libvirt/virsh — automated VM lifecycle (provisioning, snapshotting, cloning, scaling) via IaC tooling for on-prem and hybrid-cloud workloads."
 
 - name: Ansible
   logo: /images/sections/skills/ansible.svg
@@ -96,6 +110,11 @@ skills:
   summary: "Building agents with the Strands Agents SDK and setting up Model Context Protocol (MCP) servers/clients to give LLMs tool access. Hands-on with multi-agent orchestration, tool/function calling, RAG pipelines and prompt engineering for production-grade GenAI workflows."
 
 # --- Core Tools & Languages ---
+- name: Web Development
+  icon: "fas fa-laptop-code"
+  summary: "Designed and built namrathaandco.com end-to-end — responsive front-end, hosting and deployment — outside of my core cloud/DevOps work."
+  url: "https://namrathaandco.com/"
+
 - name: Python
   logo: /images/sections/skills/python.svg
   summary: "Strong grasp of core Python concepts. Developed and maintained scripts and serverless Lambdas to automate customer and platform requirements."
