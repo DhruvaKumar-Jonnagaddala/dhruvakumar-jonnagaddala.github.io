@@ -42,6 +42,10 @@ skills:
   summary: "Designed, deployed and operated production Kubernetes clusters (EKS, AKS, GKE) with GitOps-driven, zero-downtime microservice deployments. Enabled fast, secure, fully managed DevOps tooling on Kubernetes."
   url: "https://kubernetes.io/"
 
+- name: GitOps (ArgoCD & FluxCD v2)
+  icon: "fas fa-infinity"
+  summary: "Driving declarative, Git-as-source-of-truth deployments with ArgoCD and FluxCD v2 — automated sync/reconciliation, drift detection and rollback across Kubernetes clusters, replacing manual kubectl/Helm-driven releases."
+
 - name: Terraform
   logo: /images/sections/skills/terraform.png
   summary: "HashiCorp Certified Terraform Associate. Capable of writing scalable, testable and maintainable infrastructure as code across multi-account, multi-cloud environments."
