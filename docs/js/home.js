@@ -24,6 +24,24 @@ var projectCards;
     }
     detectDevice();
 
+    // =========== Scroll to top button ================
+    function scrollToTop() {
+      var btn = $('#scroll-to-top');
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+
+      btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+      });
+    }
+    scrollToTop();
+
     // =========== Typing Carousel ================
     // get data from hidden ul and set as typing data
     if (document.getElementById('typing-carousel-data') != undefined) {

@@ -72,8 +72,8 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Hard Working
-  icon: "fas fa-fire"
+  name: Adaptability
+  icon: "fas fa-sync-alt"
   percentage: 100
   color: orange
 
