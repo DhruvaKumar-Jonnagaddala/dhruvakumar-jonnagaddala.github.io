@@ -57,8 +57,8 @@ socialLinks:
 badges:
 - type: certification
   name: HashiCorp Certified Terraform Associate
-  url: "https://www.credly.com/badges/3ccd11e1-f683-4ea3-a9b9-9cf5a9d8a65b/public_url"
-  badge: "https://images.credly.com/size/340x340/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
+  url: "https://www.credly.com/badges/258ba665-acdf-4bbf-8b90-55620eec26df/public_url"
+  badge: "https://images.credly.com/size/340x340/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob"
 
 - type: certification
   name: Cloudbees Jenkins Engineer
