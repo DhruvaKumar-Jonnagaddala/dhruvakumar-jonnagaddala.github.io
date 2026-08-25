@@ -11,70 +11,101 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+# --- Architecture & Strategy ---
+- name: Multi-Cloud & Enterprise Architecture
+  logo: /images/sections/skills/cloud.png
+  summary: "Solution and enterprise architecture across AWS, Azure and GCP — cloud strategy and adoption, migration and modernisation, and evaluating multi-cloud placement for cost, compliance and vendor lock-in trade-offs."
+
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "AWS is my primary cloud (EC2, ECS, EKS, Lambda, S3, RDS, CloudFront, API Gateway, DynamoDB). Architected production workloads on Azure (AKS, APIM, Azure AD, App Gateway) and GCP (GKE, Cloud Run, BigQuery, BigTable) across multi-cloud migration engagements."
+
+- name: Well-Architected Frameworks
+  logo: /images/sections/skills/cloud.png
+  summary: "Design and review workloads against the AWS, Azure and GCP Well-Architected Frameworks — security, reliability, performance efficiency, cost optimisation and operational excellence pillars — to drive architecture decisions and remediation backlogs."
+
+- name: Zero Trust & Compliance
+  logo: /images/sections/skills/cloud.png
+  summary: "Architected Zero Trust, PCI DSS Level 1 compliant payment platforms — IAM policies, network segmentation and encryption standards enforced as policy-as-code across all environments."
+
+- name: Zero Trust Network Access & VPN
+  logo: /images/sections/skills/cloud.png
+  summary: "Implemented Zero Trust network boundaries using HashiCorp Boundary, WireGuard, and client/site-to-site VPNs (AWS Client VPN, Azure VPN Gateway) for secure, identity-aware access to private cloud resources without a flat network perimeter."
+
+- name: DR & High Availability
+  logo: /images/sections/skills/cloud.png
+  summary: "Designed disaster-recovery automation and high-availability failover for production platforms, sustaining 99.9%-99.99% uptime SLAs across 150+ microservices and hybrid-cloud estates."
+
+# --- Infrastructure as Code & Automation ---
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Configured / Managed / Handled multiple kubernetes clusters. Capable of deploying, managing applications on Kubernetes powered by GitOps. Enabled fast, secure and reliable fully managed DevOps tools on kubernetes"
+  summary: "Designed, deployed and operated production Kubernetes clusters (EKS, AKS, GKE) with GitOps-driven, zero-downtime microservice deployments. Enabled fast, secure, fully managed DevOps tooling on Kubernetes."
   url: "https://kubernetes.io/"
 
 - name: Terraform
   logo: /images/sections/skills/terraform.png
-  summary: "Certified terraform associate. Capable of writing scalable/testable and maintainable infrastructure as code."
+  summary: "HashiCorp Certified Terraform Associate. Capable of writing scalable, testable and maintainable infrastructure as code across multi-account, multi-cloud environments."
   url: "https://www.terraform.io/"
 
 - name: Ansible
   logo: /images/sections/skills/ansible.svg
-  summary: 'Written multiple ansible playbooks to achieve configuration management for both cloud and traditional infrastructure. Capable of developing custom ansible modules and plugins'
+  summary: "Written playbooks for configuration management across cloud and traditional infrastructure, including custom Ansible modules and plugins."
   url: "https://www.ansible.com/"
 
 - name: Jenkins
   logo: /images/sections/skills/jenkins.svg
-  summary: "Certified Cloudbees Jenkins administrator. Built fast, secure, reliable and zero downtime fully managed Jenkins / Cloudbees Jenkins service for Official Cloudbees Partners for EMEA. Capable of building complex CD pipelines"
-
-- name: Python
-  logo: /images/sections/skills/python.svg
-  summary: "Expert in python core concepts. Developed and maintained custom python scripts/serverless lambdas to serve customer requirements"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked majorly on AWS cloud migration projects from tradional on perm infrastructure, beginner in GCP and Azure."
+  summary: "CloudBees Certified Jenkins Engineer. Built fast, secure, zero-downtime, fully managed Jenkins/CloudBees Jenkins services for an Official CloudBees Partner for EMEA. Capable of building complex CI/CD pipelines."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Containerised applications for production, with experience in multi-stage, multi-architecture build processes."
   url: "https://www.docker.com/"
 
+# --- Observability & Reliability ---
 - name: Grafana
   logo: /images/sections/skills/grafana-icon.svg
-  summary: "Built & Composed observability dashboards for waitrose.com ecomm platform using grafana. Enabled smart alerting for microservices powered by grafana"
+  summary: "Built and composed observability dashboards for a large-scale e-commerce platform, with smart alerting for microservices powered by Grafana."
   url: "https://grafana.com/"
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Enabled HA for Prometheus setup with long term storage capabilities via Thanos."
+  summary: "Set up and configured Prometheus metrics with PromQL and AlertManager. Enabled high availability with long-term storage via Thanos."
   url: "https://prometheus.io/"
+
+- name: Elastic (ELK) Stack
+  logo: /images/sections/skills/elastic-stack.svg
+  summary: "Configured end-to-end ELK stacks to monitor infrastructure and detect security threats, building complex Kibana visualisations and dashboards."
+  url: "https://www.elastic.co/"
 
 - name: PagerDuty
   logo: /images/sections/skills/pagerduty.svg
-  summary: "Enabled end to end incident management solution powered by PagerDuty for waitrose (UK's top) retailer. Automated Pagerduty components CRUD operations using terraform"
+  summary: "Enabled end-to-end incident management for a top UK retailer's e-commerce platform, automating PagerDuty component lifecycle via Terraform."
   url: "https://www.pagerduty.com/"
 
-- name: Elastic(ELK) Stack
-  logo: /images/sections/skills/elastic-stack.svg
-  summary: "Configured end to end ELK stack to monitor infrastructure, protect against security threats, and more. Capable of building complex kibana visualizations, timelion comparisons"
-  url: "https://www.elastic.co/"
+# --- Generative AI & Agentic Platforms ---
+- name: Generative AI / AWS Bedrock
+  logo: /images/sections/skills/cloud.png
+  summary: "Building agentic support automation on AWS Bedrock and Bedrock AgentCore, integrated into existing platform engineering toolchains."
+
+- name: Agentic AI & MCP
+  logo: /images/sections/skills/cloud.png
+  summary: "Building agents with the Strands Agents SDK and setting up Model Context Protocol (MCP) servers/clients to give LLMs tool access. Hands-on with multi-agent orchestration, tool/function calling, RAG pipelines and prompt engineering for production-grade GenAI workflows."
+
+# --- Core Tools & Languages ---
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Strong grasp of core Python concepts. Developed and maintained scripts and serverless Lambdas to automate customer and platform requirements."
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Daily-driver operating system. Comfortable writing Bash/shell scripts for automation and operations."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Used Github, Bitbucket and Gitlab."
+  summary: "Experienced with git-based development workflows across GitHub, Bitbucket and GitLab."
   url: "https://git-scm.com/"
 
 - name: Keycloak
   logo: /images/sections/skills/keycloak.svg
-  summary: "Experienced in setting up SSO powered by SAML/OAuth2.0 for DevOps tools"
-  url: https://www.keycloak.org/
-
-
+  summary: "Experienced setting up SSO powered by SAML/OAuth 2.0 for DevOps toolchains."
+  url: "https://www.keycloak.org/"

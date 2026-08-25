@@ -11,18 +11,45 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Equal Experts
+    url: "https://www.equalexperts.com/"
+    location: Bangalore, India
+    overview: Equal Experts is a global network of experienced software consultants, specialising in delivering high-quality digital products and services. Working with a diverse range of clients to design and deliver scalable cloud platforms, DevOps transformations, and engineering excellence.
+  positions:
+  - designation: Senior DevOps Lead (Cloud Solution Architecture & Platform Engineering)
+    start: Aug 2023
+    responsibilities:
+    - |
+      **Payments Platform — Cloud Architecture & Zero Trust**
+       >
+       - Defined the target-state cloud architecture and migration roadmap for a fintech payments platform, evaluating rehost, replatform, and refactor options against compliance, cost, and scalability requirements.
+       - Designed and delivered AWS cloud infrastructure for a unified payments platform (orchestration, gateway, subscriptions), achieving PCI DSS Level 1 compliance through a Zero Trust architecture built in from day one.
+       - Established cloud governance guardrails — IAM policies, network segmentation, and encryption standards — enforced as policy-as-code across all environments.
+       - Architected Terraform-managed infrastructure with fully automated CI/CD and container orchestration, sustaining a 99.9% uptime SLA with automated high-availability failover.
+       - Led architecture design reviews with client engineering and security teams, producing architecture decision records (ADRs) and reference patterns adopted across delivery teams.
+       - Acted as trusted technical advisor to client stakeholders, translating fintech compliance and scalability requirements into cloud architecture decisions.
+       >
+    - |
+      **Multi-Cloud & AI Platform Engineering**
+       >
+       - Evaluated multi-cloud placement options across AWS, Azure, and GCP for future workloads, balancing cost, compliance, and vendor lock-in.
+       - Building an AI-powered support assistance bot on AWS Bedrock and Bedrock AgentCore to automate and streamline internal support workflows, integrating it into the existing platform engineering toolchain.
+       >
+
+- company:
     name: Servana Managed Services
     url: "https://servanamanaged.com/"
     location: Bangalore, India
     overview: Team at Servana provides an efficient method of engaging skilled DevOps resources to build highly scalable platforms and the engineering teams to manage them. The team is entrusted to provide managed cloud services and a curated collection of opensource and licensed DevOps tools hosted platform. Designing, implementing and managing cloud-based infrastructure and applications using AWS, GCP and Azure
   positions:
-  - designation: DevOps / Cloud Platform Engineer
+  - designation: Sr DevOps Cloud Platform Engineer
     start: Sep 2021
+    end: Jul 2023
     responsibilities:
     - |
       **DevOps as a Service**
        > 
-       - Delivered successful projects with a variety of customers in Retail, E-Commerce, CyberSecurity and Fintech to name a few with all the major cloud vendors like Amazon Web Services, Google Cloud and Microsoft Azure meeting demanding deadlines and high standards of craftmanship and cooperation.
+       - Delivered successful projects with a variety of customers in Retail, E-Commerce, CyberSecurity and Fintech to name a few with all the major cloud vendors like Amazon Web Services, Google Cloud and Microsoft Azure meeting demanding deadlines and high standards of craftsmanship and cooperation.
        - Helped in building reliable, secure, cost-optimised application platforms that are fully managed using infrastructure-as-code tools and software development pipelines.
        - The platforms were built with automated pipelines, integrated monitoring and alerting, granular security with role based access at all levels and tested continuously for reliability.
        >
@@ -58,6 +85,12 @@ experiences:
         - Minimal downtime DevOps tool upgrades.
         - Updates and upgrades to the platform driven through GitOps.
         >
+    - |
+      **Migration Success Stories**
+        >
+        - **LVMH Digital — Website Performance Benchmarking Platform**: Designed and delivered an automated weekly Lighthouse testing pipeline covering 200+ web properties across 75 LVMH Houses. Built ~2,500 Jenkins pipelines, deployed 5 geographically distributed test clusters (US, EU, Asia), and stored results in Google BigTable — enabling 10,000+ tests per week with queryable analytics for Group Data teams.
+        - **Global Insurer — On-Premise Rancher to Azure AKS Migration**: Led the migration from on-premise Rancher Kubernetes to fully managed Azure AKS. Rebuilt CI/CD pipelines with Azure DevOps and Helm, adopted GitOps for full deployment traceability, deployed Azure API Management (APIM) for centralised API governance, and implemented Zero Trust security architecture using Private Link, Application Gateway with WAF, and Azure AD — resulting in faster feature delivery and a significantly improved security posture.
+        >
 
 - company:
     name: Waitrose
@@ -92,8 +125,8 @@ experiences:
     - |
       >
       Building quality checks for the delivery team to apply early to the code pipeline
-        - CI / CD - Design, build and maintain continues integration and deployment pipelines(powered by Groovy DSL). Blue/Green/Canary deployments.
-        - DevOps tools(Jenkins, Nexus, Sonarqube, Contrast, Keyclock, Elastic Stack, etc., ) installation/life cycle management.
+        - CI / CD - Design, build and maintain continuous integration and deployment pipelines (powered by Groovy DSL). Blue/Green/Canary deployments.
+        - DevOps tools (Jenkins, Nexus, SonarQube, Contrast, Keycloak, Elastic Stack, etc.) installation/life cycle management.
         - Experience with container-based deployments using Docker, working with Docker images and Docker registries.
       >
 

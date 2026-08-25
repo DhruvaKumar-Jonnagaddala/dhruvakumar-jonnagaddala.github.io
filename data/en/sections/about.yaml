@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Sr DevOps / Cloud Platform Engineer
+designation: Cloud Solution Architect
 # your company information
 company:
-  name: Servana Managed Services
-  url: "https://servanamanaged.com/"
+  name: Equal Experts
+  url: "https://www.equalexperts.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/DhruvaKumar_CV.pdf"
@@ -21,15 +21,16 @@ resume_docx: "files/DhruvaKumar_CV.docx"
 
 # a summary about you
 summary: |-
-  DevOps / Cloud Platform Engineer with 13+ years of experience, equipped with a fair knowledge of a repertoire of technologies used by the Waitrose (top retailer of UK), Servana Managed Services(Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
+  Cloud Solution Architect with 17+ years in IT and 8+ years architecting and leading enterprise-scale cloud transformation, migration, and modernization programs across AWS, Azure, and GCP for global retail, fintech, insurance, luxury, and cybersecurity organizations — including Equal Experts, Waitrose (top retailer of UK), Servana Managed Services (Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
 
-  - I like to adopt with the rapid changing technologies and implementing the same at work, well-versed in high-pressure, deadline-driven, target-focused environments. 
+  - Proven record designing secure, compliant, and cost-optimized multi-cloud architectures — from Zero Trust, PCI DSS Level 1 payment platforms to large-scale Kubernetes and IaC-driven infrastructure.
+  - Skilled at translating business objectives into cloud adoption strategies, establishing governance and DevSecOps operating models, and engaging stakeholders from engineering teams through to executive leadership.
   - I enjoy implementing quick and smart DevOps / Cloud platform engineering solutions. Few of them mentioned are below
 
-    ***One-click environment provisioning, Shift-left security, Build resilient infrastructure, Zero downtime CI/CD, **\*AsCode** - (Configuration as code & Infrastructure as code), Container orchestration solutions, Cost review and optimisation, Smart monitoring, GitOps, ChatOps.***
+    ***One-click environment provisioning, Shift-left security, Build resilient infrastructure, Zero downtime CI/CD, **\*AsCode** - (Configuration as code & Infrastructure as code), Container orchestration solutions, Cost review and optimisation, Smart monitoring, GitOps, ChatOps, Generative AI & Agentic Platforms.***
 
   - Ability to work at high and low levels to understand all elements of the technical requirements to deliver flexible and scalable solutions in the cloud.
-  - My area of focus also lies in providing technical design, architect, and automating infrastructure in cloud & build CI/CD solutions for micro services and mobile applications.
+  - Passionate about mentoring engineers and architects and building self-sufficient, future-ready platform teams.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -78,6 +79,16 @@ badges:
   name: Leadership
   percentage: 100
   color: yellow
+
+- type: soft-skill-indicator
+  name: Mentoring
+  percentage: 100
+  color: green
+
+- type: soft-skill-indicator
+  name: Stakeholder Management
+  percentage: 100
+  color: pink
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
