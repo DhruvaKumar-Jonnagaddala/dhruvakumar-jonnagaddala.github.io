@@ -1,0 +1,24 @@
+#!/bin/sh
+# Regenerate the Hugo site into docs/ before every commit, so the
+# published output (served via GitHub Pages from /docs) always matches
+# the committed source content.
+
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+if ! command -v hugo >/dev/null 2>&1; then
+  echo "pre-commit: hugo is not installed or not on PATH. Install it (e.g. 'brew install hugo') to commit." >&2
+  exit 1
+fi
+
+echo "pre-commit: running hugo build..."
+if ! hugo --gc --minify -d docs; then
+  echo "pre-commit: hugo build failed. Fix the errors above before committing." >&2
+  exit 1
+fi
+
+git add docs
+
+exit 0

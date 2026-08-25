@@ -16,19 +16,19 @@
 {{ end }}
 
 {{ if $footerEnabled }}
-  {{ $author:= site.Data.author }}
-  {{ if (index site.Data site.Language.Lang).author }}
-    {{ $author = (index site.Data site.Language.Lang).author }}
+  {{ $author:= hugo.Data.author }}
+  {{ if (index hugo.Data site.Language.Lang).author }}
+    {{ $author = (index hugo.Data site.Language.Lang).author }}
   {{ end }}
 
-  {{ $sections:= site.Data.sections }}
-  {{ if (index site.Data site.Language.Lang).sections }}
-    {{ $sections = (index site.Data site.Language.Lang).sections }}
+  {{ $sections:= hugo.Data.sections }}
+  {{ if (index hugo.Data site.Language.Lang).sections }}
+    {{ $sections = (index hugo.Data site.Language.Lang).sections }}
   {{ end }}
 
   {{ $copyrightNotice := "© 2021 Copyright."}}
-  {{ if (index site.Data site.Language.Lang).site }}
-    {{ $siteConfig := (index site.Data site.Language.Lang).site }}
+  {{ if (index hugo.Data site.Language.Lang).site }}
+    {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
     {{ if $siteConfig.copyright }}
       {{ $copyrightNotice = $siteConfig.copyright }}
     {{ end }}
@@ -36,7 +36,7 @@
 
 
   {{ $disclaimer := "" }}
-  {{ $siteConfig := (index site.Data site.Language.Lang).site }}
+  {{ $siteConfig := (index hugo.Data site.Language.Lang).site }}
   {{ if $siteConfig.disclaimer }}
     {{ $disclaimer = $siteConfig.disclaimer }}
   {{ end }}

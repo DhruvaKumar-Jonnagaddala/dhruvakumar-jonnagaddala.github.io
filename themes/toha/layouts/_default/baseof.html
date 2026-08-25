@@ -4,13 +4,13 @@
     <title>{{ .Page.Title }}</title>
     <!------ ADD COMMON HEADERS -------->
     {{- partial "header.html" . -}}
-    {{ template "_internal/opengraph.html" . }}
+    {{ partial "opengraph.html" . }}
 
     <!------ ADD PAGE SPECIFIC HEADERS ------->
     {{ block "header" . }} {{ end }}
 
     <!-- ADD GOOGLE ANALYTICS IF ENABLED -->
-    {{ if site.GoogleAnalytics }}
+    {{ if site.Config.Services.GoogleAnalytics.ID }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
   </head>

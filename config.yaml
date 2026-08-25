@@ -1,6 +1,6 @@
 baseURL: https://dhruvakumar-jonnagaddala.github.io
 
-languageCode: en-us
+locale: en-us
 title: "Dhruv's Portfolio"
 theme: "toha"
 
@@ -8,7 +8,7 @@ theme: "toha"
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
