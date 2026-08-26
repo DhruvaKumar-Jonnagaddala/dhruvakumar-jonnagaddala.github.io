@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Cloud Solution Architect
+designation: Sr DevOps Engineer
 # your company information
 company:
   name: Equal Experts
@@ -21,7 +21,7 @@ resume_docx: "files/DhruvaKumar_CV.docx"
 
 # a summary about you
 summary: |-
-  Cloud Solution Architect with 17+ years in IT and 8+ years architecting and leading enterprise-scale cloud transformation, migration, and modernization programs across AWS, Azure, and GCP for global retail, fintech, insurance, luxury, and cybersecurity organizations — including Equal Experts, Waitrose (top retailer of UK), Servana Managed Services (Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
+  Sr DevOps Engineer with 17+ years in IT, with 8+ years of experience as a Solution Architect leading enterprise-scale cloud transformation, migration, and modernization programs across AWS, Azure, and GCP for global retail, fintech, insurance, luxury, and cybersecurity organizations — including Equal Experts, Waitrose (top retailer of UK), Servana Managed Services (Official Cloudbees Partners for EMEA) & Target (US second largest retailer).
 
   - Proven record designing secure, compliant, and cost-optimized multi-cloud architectures — from Zero Trust, PCI DSS Level 1 payment platforms to large-scale Kubernetes and IaC-driven infrastructure.
   - Skilled at translating business objectives into cloud adoption strategies, establishing governance and DevSecOps operating models, and engaging stakeholders from engineering teams through to executive leadership.
